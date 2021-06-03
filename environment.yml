@@ -1,0 +1,36 @@
+name: bms
+channels:
+  - fastai/label/test
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6.9
+  - pillow-simd
+
+  - cudatoolkit=10.1
+  - pytorch=1.7.1
+  - torchvision
+
+  - opencv
+  - cython
+  - scipy
+  - scikit-learn
+  - tqdm
+  - pandas
+  - pyyaml
+  - scikit-image
+  - rdkit
+  #- sqlite
+  - pip
+  - pip:
+    - tensorboardX
+    - git+https://github.com/NVIDIA/apex.git@3ae89c754d945e407a6674aa2006d5a0e35d540e
+    - albumentations
+    - requests
+    - resnest
+    - torch_optimizer
+    - git+https://github.com/rwightman/pytorch-image-models
+    - efficientnet_pytorch
+    - python-Levenshtein
+    - fairseq==0.10.2

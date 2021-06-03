@@ -1,0 +1,7 @@
+.idea/
+notebooks
+__pycache__
+logdir
+*.csv
+*.pth
+*.pickle
