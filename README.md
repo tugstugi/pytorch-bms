@@ -1,4 +1,4 @@
-Part of the Nth place solution for [the Bristol-Myers Squibb – Molecular Translation challenge](https://www.kaggle.com/c/bms-molecular-translation/overview) translating
+Part of the 9th place solution for [the Bristol-Myers Squibb – Molecular Translation challenge](https://www.kaggle.com/c/bms-molecular-translation/overview) translating
 images containing chemical structures into InChI (International Chemical Identifier) texts.
 
 This repo is partially based on the following resources:
