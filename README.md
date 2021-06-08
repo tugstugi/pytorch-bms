@@ -18,6 +18,7 @@ This repo is partially based on the following resources:
 python r09_create_images_from_allowed_inchi.py
 python datasets/extra_prepocess2.py 
 ```
+* and also install [apex](https://github.com/NVIDIA/apex)
 
 ## Training
 This repo supports training any VIT/SWIN/CAIT transformer models from [timm](https://github.com/rwightman/pytorch-image-models/) as encoder together with the fairseq transformer decoder.
